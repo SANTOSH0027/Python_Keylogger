@@ -13,7 +13,7 @@ def when_key_is_pressed(key):
 listener = keyboard.Listener(on_press=when_key_is_pressed)
 listener.start()
 
-# it stops when you press enter
+# program will run until you press enter
 input(" Keylogger running... Press Enter to stop.\n")
 
 
